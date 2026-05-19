@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de Internet</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at top, #1e1b4b 0%, #0f172a 100%);
+            color: #f1f5f9;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(15, 23, 42, 0.6);
+            border-bottom: 2px solid #06b6d4;
+            box-shadow: 0 4px 30px rgba(6, 182, 212, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(to right, #38bdf8, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        nav {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        nav a {
+            color: #94a3b8;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover { color: #fff; background: #06b6d4; box-shadow: 0 0 15px #06b6d4; }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        h2 { color: #38bdf8; font-size: 2rem; border-bottom: 1px solid rgba(56, 189, 248, 0.3); padding-bottom: 10px; }
+        h3 { color: #22d3ee; margin-top: 25px; }
+        p, li { line-height: 1.8; color: #cbd5e1; }
+        ul { padding-left: 20px; }
+        li strong { color: #38bdf8; }
+        footer { text-align: center; padding: 30px; color: #64748b; margin-top: 50px; border-top: 1px solid rgba(255, 255, 255, 0.05); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Infraestructura Global de Internet</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">🏠 Inicio</a>
+        <a href="sitio-web.html" style="color: #fff; background: #06b6d4; box-shadow: 0 0 15px #06b6d4;">🌐 ¿Qué es una Web?</a>
+        <a href="html-css.html">🧩 HTML y CSS</a>
+        <a href="publicacion.html">☁️ Publicación y Legal</a>
+        <a href="ia.html">🤖 Uso de IA</a>
+    </nav>
+
+    <main>
+        <h2>Conceptos de la Red</h2>
+        <ul>
+            <li><strong>Página Web:</strong> Un documento electrónico digital programado en código que contiene los datos multimedia básicos.</li>
+            <li><strong>Sitio Web:</strong> El grupo completo de páginas web conectadas entre sí que forman un espacio completo bajo un mismo enlace o dominio.</li>
+        </ul>
+
+        <h2>🌍 ¿Cómo viaja la información por Internet?</h2>
+        <p>Al pulsar un enlace o escribir una URL en la barra de direcciones, se activa un intercambio de datos instantáneo estructurado en las siguientes fases de comunicación:</p>
+
+        <h3>1. Servidores y Clientes</h3>
+        <p>Tu equipo actúa de <strong>Cliente</strong> enviando una señal de solicitud. El computador a miles de kilómetros que guarda los archivos procesa la petición y actúa de <strong>Servidor</strong> respondiendo de vuelta.</p>
+
+        <h3>2. Dirección IP y DNS</h3>
+        <p>Cada máquina conectada posee una <strong>Dirección IP</strong> (código numérico identificativo). Los sistemas <strong>DNS</strong> actúan como traductores mapeando los nombres de dominios comunes a las IPs reales de los servidores.</p>
+
+        <h3>3. Protocolos HTTP y HTTPS</h3>
+        <p>Es la normativa de lenguaje que usan los equipos. <strong>HTTP</strong> transfiere los datos básicos del sitio web, mientras que <strong>HTTPS</strong> añade un certificado criptográfico seguro que viaja cifrado para proteger contraseñas y privacidad.</p>
+
+        <h3>4. Transferencia de Datos</h3>
+        <p>Toda la información digital se rompe en millones de pequeños <strong>paquetes de datos</strong> que toman caminos diferentes por routers y cables submarinos, volviéndose a agrupar en tu navegador de forma perfecta.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Arquitectura de Sistemas de Información</p>
+    </footer>
+
+</body>
+</html>
